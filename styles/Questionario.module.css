@@ -1,0 +1,60 @@
+/* Questionario.tsx */
+.questionario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estatistica.tsx */
+.estatistica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.valor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  font-size: 4rem;
+}
+
+.texto {
+  color: #ddd;
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
+/* Resultado.tsx */
+.resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+/* Botao.tsx */
+.botao {
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 200;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 25px;
+  background-color: #9885f0;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.botao:hover {
+  transform: scale(1.1);
+}
